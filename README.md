@@ -4,8 +4,7 @@
 This package contains arithmetic implementations, residue-tree schedules,
 reversible CRT reconstruction, and validation scripts for genus-two
 phase sampling. The associated manuscript is
-`genus2_masked_residue_tree.tex`; its source is not included.
-`tree_schedule_appendix.tex` contains a supplementary proof fragment.
+`genus2_masked_residue_tree.tex`.
 
 ## Reversible CRT reconstruction
 
@@ -53,7 +52,7 @@ references, fresh forward XOR cleanup, and 32 local arithmetic cases.
 The local macros provide field-operation traces for phase correction
 and root consumption.
 
-Run validation with assertions enabled; do not use Python `-O`.
+Run validation with assertions enabled.
 
 ## Arithmetic and resource bounds
 
@@ -175,5 +174,4 @@ python3 validate_sampling.py
 ```
 
 `MANIFEST.json` records file hashes and the associated manuscript hash.
-The manuscript source is not included in this archive. MATLAB listings
-are outside the reported computational validation.
+
